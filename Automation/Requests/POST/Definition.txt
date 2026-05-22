@@ -1,0 +1,14 @@
+POST Http Method
+
+POST is a request method supported by HTTP used by the World Wide Web. 
+By design, the POST request method requests that a web server accepts the data enclosed in the body of the request message, most likely for storing it.
+It is often used when uploading a file or when submitting a completed web form.
+
+Advantages of using POST Method
+It is more secure than GET because user-entered information is never visible in the URL query string or in the server logs.
+There is a much larger limit on the amount of data that can be passed and one can send text data as well as binary data (uploading a file) using POST. 
+Disadvantages of using the POST Method
+Since the data sent by the POST method is not visible in the URL, so it is not possible to bookmark the page with specific query.
+POST requests are never cached
+POST requests do not remain in the browser history
+ 
