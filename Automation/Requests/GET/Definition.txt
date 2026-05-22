@@ -1,0 +1,11 @@
+GET Http Method
+The GET method is used to retrieve information from the given server using a given URL. The GET method sends the encoded user information appended to the page request.
+The page and the encoded information are separated by the ‘?’ character
+
+Advantages of Using the GET Method
+Since the data sent by the GET method are displayed in the URL, it is possible to bookmark the page with specific query string values.
+GET requests can be cached and GET requests remain in the browser history.
+GET requests can be bookmarked.
+Disadvantages of Using the GET Method
+The GET method is not suitable for passing sensitive information such as the username and password, because these are fully visible in the URL query string as well as potentially stored in the client browser’s memory as a visited page.
+Because the GET method assigns data to a server environment variable, the length of the URL is limited. So, there is a limitation for the total data to be sent
