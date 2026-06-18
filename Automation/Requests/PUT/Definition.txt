@@ -1,0 +1,12 @@
+The PUT method is one of the key HTTP request methods used to update or create a resource at a specific URI.
+
+Working of HTTP PUT Method
+If the resource exists at the given URI, it is updated with the new data.
+If the resource does not exist, the server can create it at that URI.
+The request includes the data to be stored in the request body.
+It's idempotent, meaning sending the same request multiple times results in the same outcome (unlike POST).
+
+requests.put() sends the PUT request to the specified URL.
+data parameter inside requests.put() is used to pass the key-value data to be updated or created on the server.
+print(r) displays the response object, including the HTTP status code (e.g., 200 for success).
+print(r.content) prints the response body returned by the server after processing the PUT request.
